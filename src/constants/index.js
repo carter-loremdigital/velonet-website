@@ -88,17 +88,17 @@ export const feedback = [
 export const stats = [
   {
     id: "stats-1",
-    title: "User Active",
+    title: "Active Users",
     value: "3800+",
   },
   {
     id: "stats-2",
-    title: "Trusted by Company",
+    title: "Companies Trust HooBank",
     value: "230+",
   },
   {
     id: "stats-3",
-    title: "Transaction",
+    title: " In Transactions",
     value: "$230M+",
   },
 ];
