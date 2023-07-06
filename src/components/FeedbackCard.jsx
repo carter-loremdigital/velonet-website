@@ -8,7 +8,7 @@ const FeedbackCard = ({ content, name, title, img }) => {
       <img
         src={quotes}
         alt="quotation"
-        className="w-[42px] h-[27px] object-contain"
+        className="w-[42px] h-[27px] object-contain filter-svg"
       />
       {/* Quote content */}
       <p className="font-poppins font-normal text-[18px] leading-[32px] text-white my-10">
