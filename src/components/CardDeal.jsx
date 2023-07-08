@@ -6,6 +6,7 @@ import Button from "./Button";
 const CardDeal = () => {
   return (
     <section className={layout.sectionReverse}>
+      {/* Left side image */}
       <div className={layout.sectionImgReverse}>
         <img
           src={speed}
@@ -16,6 +17,8 @@ const CardDeal = () => {
         <div className="absolute z-[0] -left-2/3 -top-[20%] w-[40%] h-[80%] rounded-full white__gradient" />
         <div className="absolute z-[1] -left-2/3 -top-[20%] w-[40%] h-[80%] rounded-full blue__gradient" />
       </div>
+
+      {/* Right side content */}
       <div className={layout.sectionInfo}>
         <h2 className={styles.heading2}>
           Blazing fast internet <br className="sm:block hidden" />

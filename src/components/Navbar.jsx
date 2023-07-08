@@ -10,12 +10,14 @@ const Navbar = () => {
 
   return (
     <nav className="w-full flex py-6 justify-between items-center navbar">
+      {/* Company logo */}
       <img
         src={companyLogo}
         alt="hoobank"
         className="w-[150px] h-[48px] object-contain"
       />
 
+      {/* Nav links */}
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (
           <li
@@ -31,6 +33,7 @@ const Navbar = () => {
 
       {/* Mobile Navbar */}
       <div className="sm:hidden flex flex-1 justify-end items-center">
+        {/* Menu icon */}
         <img
           src={toggle ? close : menu}
           alt="menu"
@@ -38,6 +41,7 @@ const Navbar = () => {
           onClick={() => setToggle((prev) => !prev)}
         />
 
+        {/* Mobile nav links */}
         <div
           className={`${
             toggle ? "flex" : "hidden"

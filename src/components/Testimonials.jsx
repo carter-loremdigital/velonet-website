@@ -9,7 +9,7 @@ const Testimonials = () => {
       id="clients"
       className={`${styles.paddingY} ${styles.flexCenter} flex-col relative`}
     >
-      {/* TODO */}
+      {/* Background gradient */}
       <div className="absolute z-[0] w-[60%] h-[60%] -right-[50%] rounded-full blue__gradient" />
 
       {/* Title and content */}
@@ -27,6 +27,7 @@ const Testimonials = () => {
 
       {/* Card container */}
       <div className="flex flex-wrap sm:justify-start justify-center w-full feedback-container relative z-[1]">
+        {/* Feedback cards */}
         {feedback.map((card) => (
           <FeedbackCard key={card.id} {...card} />
         ))}

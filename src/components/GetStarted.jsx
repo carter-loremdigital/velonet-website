@@ -5,12 +5,15 @@ import { arrowUp } from "../assets";
 
 const GetStarted = () => {
   return (
+    // Outer circle
     <div
       className={`${styles.flexCenter} w-[140px] h-[140px] rounded-full bg-white p-[2px] cursor-pointer hover:bg-green-300 duration-500`}
     >
+      {/* Inner circle */}
       <div
         className={`${styles.flexCenter} flex-col bg-primary w-[100%] h-[100%] rounded-full hover:bg-[#071e22] duration-500`}
       >
+        {/* Button content */}
         <div className={`${styles.flexStart} flex-row`}>
           <p className="font-poppins font-medium text-[18px] leading-[23px] mr-2">
             <span className="text-green-300">Get</span>

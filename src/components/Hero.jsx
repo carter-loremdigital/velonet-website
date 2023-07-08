@@ -1,7 +1,7 @@
 import React from "react";
 
 import styles from "../style";
-import { discount, robot, connect } from "../assets";
+import { discount, connect } from "../assets";
 import GetStarted from "./GetStarted";
 
 const Hero = () => {
@@ -10,9 +10,11 @@ const Hero = () => {
       id="home"
       className={`flex md:flex-row flex-col ${styles.paddingY}`}
     >
+      {/* Left side content */}
       <div
         className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}
       >
+        {/* Discount banner */}
         <div className="flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2">
           <img
             src={discount}
@@ -25,13 +27,13 @@ const Hero = () => {
           </p>
         </div>
 
+        {/* Header */}
         <div className="flex flex-row justify-between items-center w-full">
           <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100px] leading-[75px]">
-            The
-            {/* <br className="sm:block hidden" />{" "} */}{" "}
-            <span className="text-green-300">Smarter</span>
+            The <span className="text-green-300">Smarter</span>
           </h1>
 
+          {/* Get started button component */}
           <div className="ss:flex hidden md:mr-4 mr-0">
             <GetStarted />
           </div>
@@ -40,6 +42,7 @@ const Hero = () => {
         <h1 className="font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100px] leading-[75px] w-full">
           Way to Connect
         </h1>
+        {/* Content */}
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
           With our state-of-the-art infrastructure and advanced network
           technology, we empower individuals and businesses to stay connected,

@@ -20,6 +20,7 @@ const Footer = () => {
           </p>
         </div>
 
+        {/* Footer links */}
         <div className="flex-[1.5] w-full flex flex-row justify-between flex-wrap md:mt-0 mt-10">
           {footerLinks.map((footerLink) => (
             <div
@@ -45,17 +46,18 @@ const Footer = () => {
           ))}
         </div>
       </div>
-      {/* Copyright section */}
+
+      {/* Link to github and image credit */}
       <div className="flex w-full justify-between items-center md:flex-row flex-col pt-6 border-t-[1px] border-t-[#3f3e45]">
         <div>
-          <p className="font-poppins font-normal text-start text-[18px] leading-[27px] text-white">
+          <p className="font-poppins font-normal sm:text-start text-center text-[18px] leading-[27px] text-white">
             Created by{" "}
             <a href="https://github.com/cdw66" className="underline">
               cdw66
             </a>{" "}
             <img src={github} className="w-[24px] h-[24px] inline-block" />
           </p>
-          <p className="font-poppins font-normal text-start text-[14px] leading-[27px] text-gray-500">
+          <p className="font-poppins font-normal sm:text-start text-center text-[14px] leading-[27px] text-gray-500">
             Images from{" "}
             <a href="https://www.freepik.com/" className="underline">
               Freepik
@@ -63,6 +65,7 @@ const Footer = () => {
           </p>
         </div>
 
+        {/* Social media icons */}
         <div className="flex flex-row md:mt-0 mt-6">
           {socialMedia.map((social, index) => (
             <a key={social.id} href={social.link}>

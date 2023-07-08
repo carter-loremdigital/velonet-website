@@ -3,21 +3,26 @@ import { features } from "../constants";
 import styles, { layout } from "../style";
 import Button from "./Button";
 
+// Feature card component
 const FeatureCard = ({ icon, title, content, index }) => (
   <div
     className={`flex flex-row p-6 rounded-[20px] feature-card ${
       index !== features.length - 1 ? "mb-6" : "mb-0"
     }`}
   >
+    {/* Icon circle */}
     <div
       className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} bg-dimBlue`}
     >
+      {/* Feature icon */}
       <img
         src={icon}
         alt="icon"
         className="w-[50%] h-[50%] object-contain filter-svg"
       />
     </div>
+
+    {/* Feature content */}
     <div className="flex-1 flex flex-col ml-3">
       <h4 className="font-poppins font-semibold text-white text-[18px] leading-[23px] mb-1">
         {title}
@@ -32,6 +37,7 @@ const FeatureCard = ({ icon, title, content, index }) => (
 const Business = () => {
   return (
     <section id="features" className={layout.section}>
+      {/* Left side content */}
       <div className={layout.sectionInfo}>
         <h2 className={styles.heading2}>
           An internet service provider, <br className="sm:block hidden" /> for
@@ -45,6 +51,7 @@ const Business = () => {
         <Button styles="mt-10" text="Learn More" />
       </div>
 
+      {/* Right side features */}
       <div className={`${layout.sectionImg} flex-col`}>
         {features.map((feature, index) => (
           <FeatureCard key={feature.id} {...feature} index={index} />

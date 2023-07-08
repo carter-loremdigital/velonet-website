@@ -12,7 +12,7 @@ const Clients = () => {
             key={client.id}
             className={`flex-1 ${styles.flexCenter} sm:min-w-[192px] min-w-[120px]`}
           >
-            {/* TODO: Make images glow when you hover over them */}
+            {/* Client logo */}
             <img
               src={client.logo}
               alt="client"
