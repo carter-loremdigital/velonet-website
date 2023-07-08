@@ -27,6 +27,9 @@ import newhero from "./new_hero.jpg";
 import connect from "./connect.png";
 import security from "./security.png";
 import speed from "./speed.png";
+// import companyLogo from "./company-logo.png";
+import companyLogo from "./company-logo2.png";
+import github from "./github-mark-white.svg";
 
 export {
   airbnb,
@@ -58,4 +61,6 @@ export {
   connect,
   security,
   speed,
+  companyLogo,
+  github,
 };

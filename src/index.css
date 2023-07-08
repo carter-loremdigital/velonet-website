@@ -147,17 +147,31 @@
 
 .blue__gradient {
   background: linear-gradient(180deg, rgba(188, 165, 255, 0) 0%, #214d76 100%);
-  filter: blur(123px);
+  filter: blur(100px);
 }
 
 .pink__gradient {
   background: linear-gradient(90deg, #f4c4f3 0%, #fc67fa 100%);
-  filter: blur(900px);
+  filter: blur(100px);
 }
 
 .white__gradient {
+  //background: rgba(255, 0, 0, 1);
   background: rgba(255, 255, 255, 0.6);
-  filter: blur(750px);
+  //background: -webkit-rgba(255, 0, 0, 0.6);
+  //-webkit-filter: blur(750px);
+  filter: blur(100px);
+}
+
+.green__gradient {
+  background: rgba(158, 255, 177, 0.4);
+  filter: blur(100px);
+}
+
+.green__glow {
+  box-shadow: 0px 0px 42px 8px rgba(158, 255, 177, 0.4);
+  -webkit-box-shadow: 0px 0px 42px 8px rgba(158, 255, 177, 0.4);
+  -moz-box-shadow: 0px 0px 42px 8px rgba(158, 255, 177, 0.4);
 }
 
 .client-logo {

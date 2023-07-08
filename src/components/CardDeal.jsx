@@ -10,24 +10,24 @@ const CardDeal = () => {
         <img
           src={speed}
           alt="card"
-          className="w-[100%] h-[100%] object-contain move"
+          className="w-[100%] h-[100%] z-[5] object-contain move"
         />
 
-        <div className="absolute z-[3] -left-1/2 -top-[36px] w-[50%] h-[50%] rounded-full white__gradient" />
-        <div className="absolute z-[0] -left-1/2 -bottom-[36px] w-[50%] h-[50%] rounded-full pink__gradient" />
+        <div className="absolute z-[0] -left-2/3 -top-[20%] w-[40%] h-[80%] rounded-full white__gradient" />
+        <div className="absolute z-[1] -left-2/3 -top-[20%] w-[40%] h-[80%] rounded-full blue__gradient" />
       </div>
       <div className={layout.sectionInfo}>
         <h2 className={styles.heading2}>
-          Find a better card deal <br className="sm:block hidden" />
-          in a few easy steps.
+          Blazing fast internet <br className="sm:block hidden" />
+          in the palm of your hand.
         </h2>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-          Consectetur exercitation amet esse qui irure esse. Proident cillum do
-          irure Lorem cillum sint ut irure minim officia. Dolore veniam non
-          aliquip consequat ea ullamco tempor.
+          With gigabit speeds available, we've got you covered. Whether you're
+          streaming, gaming, or working from home, your connection will always
+          keep up, even on multiple devices.
         </p>
 
-        <Button styles="mt-10" />
+        <Button styles="mt-10" text={"Check Speeds"} />
       </div>
     </section>
   );

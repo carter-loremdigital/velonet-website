@@ -38,23 +38,23 @@ export const features = [
   {
     id: "feature-1",
     icon: star,
-    title: "Rewards",
+    title: "Faster Speeds",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "With speeds over 1 Gbps, we offer the fastest internet for all of your devices.",
   },
   {
     id: "feature-2",
     icon: shield,
-    title: "100% Secured",
+    title: "Better Security",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "We secure our networks with end-to-end encryption, so your data is always secure.",
   },
   {
     id: "feature-3",
     icon: send,
-    title: "Balance Transfer",
+    title: "24/7 Customer Support",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "Whenever you need help, you can contact our 24/7 customer support line and talk to a real human.",
   },
 ];
 
@@ -62,7 +62,7 @@ export const feedback = [
   {
     id: "feedback-1",
     content:
-      "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
+      "VeloNet has transformed the way I work from home — no more frustrating delays or buffering, just seamless productivity!",
     name: "Herman Jensen",
     title: "Founder & Leader",
     img: people01,
@@ -70,7 +70,7 @@ export const feedback = [
   {
     id: "feedback-2",
     content:
-      "Money makes your life easier. If you're lucky to have it, you're lucky.",
+      "My online streaming and gaming experience has been incredibly smooth and lag-free.",
     name: "Steve Mark",
     title: "Founder & Leader",
     img: people02,
@@ -78,7 +78,7 @@ export const feedback = [
   {
     id: "feedback-3",
     content:
-      "It is usually people in the money business, finance, and international trade that are really rich.",
+      "Their exceptional customer support and blazing-fast connections have transformed my business.",
     name: "Kenn Gallagher",
     title: "Founder & Leader",
     img: people03,
@@ -89,17 +89,17 @@ export const stats = [
   {
     id: "stats-1",
     title: "Active Users",
-    value: "3800+",
+    value: "25,000+",
   },
   {
     id: "stats-2",
-    title: "Companies Trust HooBank",
+    title: "Companies",
     value: "230+",
   },
   {
     id: "stats-3",
-    title: " In Transactions",
-    value: "$230M+",
+    title: "Mbps Speeds",
+    value: "1000+",
   },
 ];
 

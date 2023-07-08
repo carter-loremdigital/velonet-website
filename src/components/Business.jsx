@@ -34,15 +34,15 @@ const Business = () => {
     <section id="features" className={layout.section}>
       <div className={layout.sectionInfo}>
         <h2 className={styles.heading2}>
-          You do the business, <br className="sm:block hidden" /> we’ll handle
-          the money.
+          An internet service provider, <br className="sm:block hidden" /> for
+          the modern era.
         </h2>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-          With the right credit card, you can improve your financial life by
-          building credit, earning rewards and saving money. But with hundreds
-          of credit cards on the market.
+          Say goodbye to slow connections and hello to seamless browsing,
+          streaming, and gaming backed by cutting-edge technology and
+          exceptional customer support.
         </p>
-        <Button styles="mt-10" />
+        <Button styles="mt-10" text="Learn More" />
       </div>
 
       <div className={`${layout.sectionImg} flex-col`}>

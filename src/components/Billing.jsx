@@ -7,14 +7,14 @@ const Billing = () => {
     <section id="product" className={layout.section}>
       <div className={layout.sectionInfo}>
         <h2 className={styles.heading2}>
-          Easily control your
+          Full control over your
           <br className="sm:block hidden" />
-          billing and invoicing.
+          privacy and personal data.
         </h2>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-          Irure duis voluptate et Lorem laborum esse exercitation reprehenderit
-          in nostrud ex nulla nulla. Culpa ut sit do dolore aliquip velit nisi
-          elit cupidatat enim.
+          Manage your account, passwords, and privacy settings all from our
+          mobile app. You can even set time limits and parental controls when
+          it's time to unplug.
         </p>
 
         {/* <div className="absolute z-[3] -left-1/2 top-0 w-[50%] h-[50%] rounded-full white__gradient" />

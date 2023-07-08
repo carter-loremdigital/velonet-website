@@ -1,7 +1,7 @@
 import React from "react";
 
 import styles from "../style";
-import { logo } from "../assets";
+import { companyLogo as logo, github } from "../assets";
 import { footerLinks, socialMedia } from "../constants";
 
 const Footer = () => {
@@ -13,10 +13,10 @@ const Footer = () => {
           <img
             src={logo}
             alt="logo"
-            className="w-[266px] h-[72px] object-contain"
+            className="w-[200px] h-[72px] object-contain"
           />
           <p className={`${styles.paragraph} mt-4 max-w-[310px]`}>
-            In eiusmod culpa proident commodo mollit aute aliquip.
+            An internet service provider, for the modern era.
           </p>
         </div>
 
@@ -47,9 +47,21 @@ const Footer = () => {
       </div>
       {/* Copyright section */}
       <div className="flex w-full justify-between items-center md:flex-row flex-col pt-6 border-t-[1px] border-t-[#3f3e45]">
-        <p className="font-poppins font-normal text-center text-[18px] leading-[27px] text-white">
-          2023 Company. All Rights Reserved.
-        </p>
+        <div>
+          <p className="font-poppins font-normal text-start text-[18px] leading-[27px] text-white">
+            Created by{" "}
+            <a href="https://github.com/cdw66" className="underline">
+              cdw66
+            </a>{" "}
+            <img src={github} className="w-[24px] h-[24px] inline-block" />
+          </p>
+          <p className="font-poppins font-normal text-start text-[14px] leading-[27px] text-gray-500">
+            Images from{" "}
+            <a href="https://www.freepik.com/" className="underline">
+              Freepik
+            </a>
+          </p>
+        </div>
 
         <div className="flex flex-row md:mt-0 mt-6">
           {socialMedia.map((social, index) => (
