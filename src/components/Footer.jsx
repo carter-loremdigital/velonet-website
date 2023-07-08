@@ -52,14 +52,24 @@ const Footer = () => {
         <div>
           <p className="font-poppins font-normal sm:text-start text-center text-[18px] leading-[27px] text-white">
             Created by{" "}
-            <a href="https://github.com/cdw66" className="underline">
+            <a
+              href="https://github.com/cdw66"
+              className="underline"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               cdw66
             </a>{" "}
             <img src={github} className="w-[24px] h-[24px] inline-block" />
           </p>
           <p className="font-poppins font-normal sm:text-start text-center text-[14px] leading-[27px] text-gray-500">
             Images from{" "}
-            <a href="https://www.freepik.com/" className="underline">
+            <a
+              href="https://www.freepik.com/"
+              className="underline"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Freepik
             </a>
           </p>
@@ -68,7 +78,12 @@ const Footer = () => {
         {/* Social media icons */}
         <div className="flex flex-row md:mt-0 mt-6">
           {socialMedia.map((social, index) => (
-            <a key={social.id} href={social.link}>
+            <a
+              key={social.id}
+              href={social.link}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <img
                 src={social.icon}
                 alt="social"

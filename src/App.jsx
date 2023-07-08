@@ -1,4 +1,4 @@
-import React from "react";
+import { useEffect, React } from "react";
 import styles from "./style";
 
 import {
@@ -15,6 +15,10 @@ import {
 } from "./components";
 
 const App = () => {
+  // useEffect(() => {
+  //   document.title = "VeloNet";
+  // }, []);
+
   return (
     <div className="bg-primary w-full overflow-hidden">
       <div className={`${styles.paddingX} ${styles.flexCenter}`}>
