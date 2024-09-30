@@ -1,7 +1,8 @@
 import React from "react";
 
 import styles from "../style";
-import { companyLogo as logo, github } from "../assets";
+import { companyLogo as logo } from "../assets";
+import { lorem } from "../assets";
 import { footerLinks, socialMedia } from "../constants";
 
 const Footer = () => {
@@ -51,16 +52,17 @@ const Footer = () => {
       <div className="flex w-full justify-between items-center md:flex-row flex-col pt-6 border-t-[1px] border-t-[#3f3e45]">
         <div>
           <p className="font-poppins font-normal sm:text-start text-center text-[18px] leading-[27px] text-white">
-            Created by{" "}
+            Made by{" "}
             <a
-              href="https://github.com/cdw66"
+              href="https://www.loremdigital.co/"
               className="underline"
               target="_blank"
               rel="noopener noreferrer"
             >
-              cdw66
+              Lorem Digital
             </a>{" "}
-            <img src={github} className="w-[24px] h-[24px] inline-block" />
+            {/* <img src={github} className="w-[24px] h-[24px] inline-block" /> */}
+            <img src={lorem} className="w-[24px] h-[24px] inline-block" />
           </p>
           <p className="font-poppins font-normal sm:text-start text-center text-[14px] leading-[27px] text-gray-500">
             Images from{" "}

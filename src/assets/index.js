@@ -23,7 +23,7 @@ import connect from "./connect.png";
 import security from "./security.png";
 import speed from "./speed.png";
 import companyLogo from "./company-logo2.png";
-import github from "./github-mark-white.svg";
+import lorem from "./loremlogowhite.png";
 
 export {
   airbnb,
@@ -51,5 +51,5 @@ export {
   security,
   speed,
   companyLogo,
-  github,
+  lorem,
 };
